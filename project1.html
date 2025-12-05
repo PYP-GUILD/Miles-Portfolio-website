@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Project 1 - About Me Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Project 1 - About Me Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo"><a href="index.html">About Miles</a></div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project.html">My work</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h1>As you can see</h1>
-        <p>This is a simple HTML & CSS web page that talks about the developer. It showcases basic web design skills and introduces Miles as a passionate student developer.</p>
-        <img src="project1.png" alt="Project 1 Large" style="width:200%;max-width:600px;display:block;margin:2rem auto;border-radius:20px;">
-    </main>
-   <footer id="footer" class="footer-contact-section">
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">About Miles</a></div>
+    <!-- Toggle button for mobile -->
+    <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰ Menu</button>
+    <ul id="main-nav" class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">My work</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1>As you can see</h1>
+    <p>
+      This is a simple HTML & CSS web page that talks about the developer. 
+      It showcases basic web design skills and introduces Miles as a passionate student developer.
+    </p>
+    <img src="project1.png" alt="Project 1 Large" style="max-width:600px;width:100%;display:block;margin:2rem auto;border-radius:20px;">
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
     <div class="footer-logo">About Miles Portfolio</div>
     <ul class="footer-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="project.html">My work</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">My work</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
-    <section class="footer-contact-section">
-        <h2>Let's Connect</h2>
-        <p>Email: milesnwabuzor@gmail.com<br>Phone: +2349068699215<br>GitHub: webdeveloper332</p>
+    <div class="footer-contact-section">
+      <h3>Let's Connect</h3>
+      <p>
+        Email: <a href="mailto:milesnwabuzor@gmail.com">milesnwabuzor@gmail.com</a><br>
+        Phone: +2349068699215<br>
+        GitHub: <a href="https://github.com/webdeveloper332" target="_blank" rel="noopener">webdeveloper332</a>
+      </p>
+      <div class="footer-contact-actions">
         <a href="mailto:milesnwabuzor@gmail.com" class="btn connect">Email Me</a>
-        <a href="https://github.com/webdeveloper332" class="btn connect" target="_blank">GitHub</a>
-    </section>
-    <div class="copyright">&copy; 2025 About Miles, All Rights Reserved</div>
-</footer>
-     <script src="main.js"></script>
+        <a href="https://github.com/webdeveloper332" class="btn connect" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2025 About Miles. All Rights Reserved.</div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
