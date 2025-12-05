@@ -1,110 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Miles Projects</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Miles Projects</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo"><a href="index.html">About Miles</a></div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project.html">My work</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section class="projects-section">
-            <h2>My Projects</h2>
-            <div class="project-list">
-                <section class="project-list1">
-                <div class="project-item">
-                    <a href="project1.html"><img src="project1.png" alt="Project 1" class="slide-img"></a>
-                    <div>
-                        <h3>About me page</h3>
-                        <p>A simple HTML & CSS web page talk about the developer.</p>
-                        <p><strong>Tech:</strong> HTML, CSS</p>
-                    </div>
-                </div>
-                </div>
-                <div class="project-item">
-                    <a href="project2.html"><img src="Project2.png" alt="Project 2" class="slide-img"></a>
-                    <div>
-                        <h3>A student Graphics design portfolio</h3>
-                        <p>A simple student portfolio that talks about the designer.</p>
-                        <p><strong>Tech:</strong> CANVA</p>
-                    </div>
-                </div>
-                <Section class="project-list3">
-                <div class="project-item">
-                    <a href="project3.html"><video id="sec" src="project3.mp4" alt="Project 3" class="slide-img"></a>
-                    <div>
-                        <h3>30 seconds motion video talking about PYP_GULID program</h3>
-                        <p>This 30 seconds video showcases information about the Gulid 
-                            program.</p>
-                        <p><strong>Tech:</strong>CANVA</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
-         <Section class="project-list4">
-                <div class="project-item">
-                    <a href="project4.html"><img src="wireframe.png" alt="wireframe" class="slide-img"></a>
-                    <div>
-                        <h3>A wireframe projects</h3>
-                        <p>A wireframe project that shows a project that is ongoing to be turned in to a fully functioning website</p>
-                        <p><strong>Tech:</strong>CANVA</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">About Miles</a></div>
+    <!-- Toggle button for mobile -->
+    <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰ Menu</button>
+    <ul id="main-nav" class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">My work</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-        <Section class="project-list4">
-                <div class="project-item">
-                    <a href="project5.html"><img src="project5.png" alt="Graphics Design" class="slide-img"></a>
-                    <div>
-                        <h3>A Graphics Design Project</h3>
-                        <p>A Graphic design project about a back to school flier the give children motivation and excitment to go back to school</p>
-                        <p><strong>Tech:</strong>CANVA</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
+  <!-- Main Content -->
+  <main>
+    <section class="projects-section">
+      <h2>My Projects</h2>
 
-        <Section class="project-list4">
-                <div class="project-item">
-                    <a href="project6.html"><img src="project6.png" alt="Project 6" class="slide-img"></a>
-                    <div>
-                        <h3>A Graphics Design Project</h3>
-                        <p>A Graphic design project about a Childrens day the give children motivation and excitment towards the holiday</p>
-                        <p><strong>Tech:</strong>CANVA</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer-contact-section">
-        <div class="footer-logo">About Miles Portfolio</div>
-        <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project.html">My work</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-       <section class="footer-contact-section">
-        <h2>Let's Connect</h2>
-        <p>Email: milesnwabuzor@gmail.com<br>Phone: +2349068699215<br>GitHub: webdeveloper332</p>
-        <a href="mailto:milesnwabuzor@gmail.com" class="btn connect">Email Me</a>
-        <a href="https://github.com/webdeveloper332" class="btn connect" target="_blank">GitHub</a>
+      <div class="project-item">
+        <a href="project1.html"><img src="project1.png" alt="Project 1" class="slide-img"></a>
+        <div>
+          <h3>About Me Page</h3>
+          <p>A simple HTML & CSS web page that introduces the developer.</p>
+          <p><strong>Tech:</strong> HTML, CSS</p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <a href="project2.html"><img src="project2.png" alt="Project 2" class="slide-img"></a>
+        <div>
+          <h3>Student Graphics Design Portfolio</h3>
+          <p>A simple student portfolio that showcases design work.</p>
+          <p><strong>Tech:</strong> Canva</p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <a href="project3.html"><video src="project3.mp4" class="slide-video" controls></video></a>
+        <div>
+          <h3>30‑Second Motion Video</h3>
+          <p>This 30‑second video showcases information about the PYP Guild program.</p>
+          <p><strong>Tech:</strong> Canva</p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <a href="project4.html"><img src="wireframe.png" alt="Wireframe" class="slide-img"></a>
+        <div>
+          <h3>Wireframe Project</h3>
+          <p>A wireframe project that is being developed into a fully functioning website.</p>
+          <p><strong>Tech:</strong> Canva</p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <a href="project5.html"><img src="project5.png" alt="Graphics Design" class="slide-img"></a>
+        <div>
+          <h3>Graphics Design Project</h3>
+          <p>A back‑to‑school flyer designed to motivate and excite children.</p>
+          <p><strong>Tech:</strong> Canva</p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <a href="project6.html"><img src="project6.png" alt="Project 6" class="slide-img"></a>
+        <div>
+          <h3>Children’s Day Graphics Design</h3>
+          <p>A design project celebrating Children’s Day, aimed at inspiring joy and excitement.</p>
+          <p><strong>Tech:</strong> Canva</p>
+        </div>
+      </div>
     </section>
-    <div class="copyright">&copy; 2025 About Miles, All Rights Reserved</div>
-</footer>
-     <script src="main.js"></script>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-logo">About Miles Portfolio</div>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">My work</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="footer-contact-section">
+      <h3>Let's Connect</h3>
+      <p>
+        Email: <a href="mailto:milesnwabuzor@gmail.com">milesnwabuzor@gmail.com</a><br>
+        Phone: +2349068699215<br>
+        GitHub: <a href="https://github.com/webdeveloper332" target="_blank" rel="noopener">webdeveloper332</a>
+      </p>
+      <div class="footer-contact-actions">
+        <a href="mailto:milesnwabuzor@gmail.com" class="btn connect">Email Me</a>
+        <a href="https://github.com/webdeveloper332" class="btn connect" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2025 About Miles. All Rights Reserved.</div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
